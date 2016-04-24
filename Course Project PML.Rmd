@@ -73,6 +73,9 @@ print(fitrp, digits = 4)
 library(rpart.plot)
 rpart.plot(fitrp$finalModel)
 ```
+
+
+
 Predict outcomes using testing set and show accuracy of prediction result
 ```{r echo=FALSE}
 predict_rp <- predict(fitrp, testing1)
